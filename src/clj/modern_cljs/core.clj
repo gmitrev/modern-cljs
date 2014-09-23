@@ -1,6 +1,6 @@
 (ns modern-cljs.core
-  (:use compojure.core)
   (:require [compojure.handler :as handler]
+            [compojure.core :refer [defroutes GET]]
             [compojure.route :as route]))
 
 (defroutes app-routes
